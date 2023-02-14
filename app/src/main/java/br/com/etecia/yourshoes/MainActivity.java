@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
             View v = (getLayoutInflater().inflate(R.layout.model_shoes, null));
 
             idImg = v.findViewById(R.id.idImgM);
+            idTitulo = v.
 
             return v;
 
