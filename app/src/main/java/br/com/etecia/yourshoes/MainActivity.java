@@ -7,7 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -49,12 +51,20 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
-            return null;
 
+            ImageView idImg;
 
+            TextView idTitulo, idPreco, idDesc, idStar;
+
+            View v = (getLayoutInflater().inflate(R.layout.model_shoes, null));
+
+            idImg = v.findViewById(R.id.idImgM);
+
+            return v;
 
         }
     }
+
 
 
 }
