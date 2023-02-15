@@ -18,20 +18,24 @@ public class MainActivity extends AppCompatActivity {
     String titulo[] = {"Tênis Nike Air Force",
             "Downshifter 12",
             "Air Jordan XXXVII",
-            "Air Zoom Superfly 9"};
+            "Air Zoom Superfly 9",
+            "Chuteira Topper"};
     String desc[] = {"Com uma estética envelhecida e cores clássicas, o original do basquete ganha uma transformação vintage. ",
             "Desenvolvido em material leve e resistente, possui cabedal têxtil respirável e por isso compre um número acima do que costuma usar.",
                 "O AJ mais recente tem tudo a ver com decolagens e aterrissagens, com várias unidades Air para tirá-lo do chão.",
-            "A chuteira de campo Zoom Superfly 9 Academy KM FG/MG possui a tecnologia Air Zoom que fornece um nível adicional de amortecimento."};
+            "A chuteira de campo Zoom Superfly 9 Academy KM FG/MG possui a tecnologia Air Zoom que fornece um nível adicional de amortecimento.",
+            "O Chuteira Futsal Topper Dominator III tem o cabedal em material sintético com detalhes em mesh. Cadarço em poliéster."};
     String preco[] = {"R$ 899,99",
                     "R$ 284,99",
                     "R$ 1299,99",
-                    "R$ 469,00"};
+                    "R$ 469,00",
+                    "R$ 169,99"};
     int imagem[] = {R.drawable.tenis1,
             R.drawable.airmaxd,
             R.drawable.airjordandap,
-            R.drawable.chut};
-    String star[] = {"4.5", "5.0", "1.0", "3.5"};
+            R.drawable.chut,
+            R.drawable.chutbranca};
+    String star[] = {"4.5", "5.0", "1.0", "3.5","5.0"};
 
 
 
